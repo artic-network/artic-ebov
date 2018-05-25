@@ -1,6 +1,6 @@
 # EBOV
 
-## Repository of documents and data for Ebola virus.
+*Repository of documents and data for Ebola virus.*
 
 > **reference_genomes/ebov-reference-genomes-35.fasta**
 >
