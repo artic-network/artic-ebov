@@ -18,27 +18,34 @@ Pan-Ebola virus primer scheme:
 
 Ebola virus Nanopore sequencing kit-list:
 > A costed tick-list of equipment, reagents and consumables for a portable Nanopore sequencing lab. 
+>
 > Web: [http://artic.network/ebov/ebov-seq-kit.html](/ebov/ebov-seq-kit.html)
+>
 > PDF: [ARTIC-EBOV-seqKit-v1.0.0.pdf](documents/ARTIC-EBOV-seqKit-v1.0.0.pdf)
 
 Ebola virus Nanopore sequencing protocol:
 > A complete step by step protocol that covers primers, amplicon preparation and clean-up, a single-tube protocol to barcode and adaptor ligate the library, and running minION.
+>
 > Web: [http://artic.network/ebov/ebov-seq-sop.html](http://artic.network/ebov/ebov-seq-sop.html)
+>
 > PDF: [ARTIC-EBOV-seqSOP-v1.0.0.pdf](documents/ARTIC-EBOV-seqSOP-v1.0.0.pdf)
 
 Setting up the laptop computing environment using Conda:
 > This document describes setting up a laptop with the software and environment needed to undertake off-line Nanopore bioinformatics and phylogenetic analysis.
+>
 > Web: [http://artic.network/ebov/ebov-it-setup.html](http://artic.network/ebov/ebov-it-setup.html)
 <!-- : PDF: --> 
 
 Ebola virus Nanopore bioinformatics protocol:
 > A complete bioinformatics protocol to take the output from the [sequencing protocol](http://artic.network/ebov/ebov-seq-sop.html) to consensus genome sequences. Includes basecalling, de-multiplexing, mapping, polishing and consensus generation.
+>
 > Web: [http://artic.network/ebov/ebov-bioinformatics-sop.html](http://artic.network/ebov/ebov-bioinformatics-sop.html)
 <!-- : PDF: --> 
 
 <br />
 Phylogenetic analysis and visualization:
 > An analysis protocol for an initial phylogenetic analysis of consensus genomes. Includes alignment, phylogeny estimation and visualization.
+>
 > Web: [http://artic.network/ebov/ebov-phylogenetics-sop.html](http://artic.network/ebov/ebov-phylogenetics-sop.html)
 <!-- : PDF: --> 
 
@@ -47,11 +54,15 @@ Phylogenetic analysis and visualization:
 
 Ebola virus validation results:
 > Describes validation experiments using this protocol on reference strains of EBOV. MinION 'bulk files' are available to replay the sequencing run.
+>
 > [http://artic.network/ebov/ebov-validation.html](http://artic.network/ebov/ebov-validation.html)
 
 <br />
 An alignment of 35 complete or nearly-complete genomes spaning 1976-2014.
 > This the reference genome alignment used to create the [pan-Ebola virus primer scheme](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2) and are also used in the [phylogenetic protocol](/ebov/ebov-phylogenetics-sop.html).
+>
 > [35 EBOV genome alignment - FASTA file.](reference_genomes/ebov-reference-genomes-35.fasta)
+>
 > [Maximum likelihood phylogeny - tree file.](reference_genomes/ebov-reference-genomes-35.phyml.tree)
+>
 > [Maximum likelihood phylogeny - PNG image.](reference_genomes/ebov-reference-genomes-35.phyml.tree.png)
