@@ -42,14 +42,12 @@ Ebola virus Nanopore bioinformatics protocol:
 > Web: [http://artic.network/ebov/ebov-bioinformatics-sop.html](http://artic.network/ebov/ebov-bioinformatics-sop.html)
 <!-- : PDF: --> 
 
-<br />
 Phylogenetic analysis and visualization:
 > An analysis protocol for an initial phylogenetic analysis of consensus genomes. Includes alignment, phylogeny estimation and visualization.
 >
 > Web: [http://artic.network/ebov/ebov-phylogenetics-sop.html](http://artic.network/ebov/ebov-phylogenetics-sop.html)
 <!-- : PDF: --> 
 
-<hr />
 ### Data
 
 Ebola virus validation results:
@@ -57,7 +55,6 @@ Ebola virus validation results:
 >
 > [http://artic.network/ebov/ebov-validation.html](http://artic.network/ebov/ebov-validation.html)
 
-<br />
 An alignment of 35 complete or nearly-complete genomes spaning 1976-2014.
 > This the reference genome alignment used to create the [pan-Ebola virus primer scheme](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2) and are also used in the [phylogenetic protocol](/ebov/ebov-phylogenetics-sop.html).
 >
