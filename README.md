@@ -58,8 +58,8 @@ Ebola virus validation results:
 An alignment of 35 complete or nearly-complete genomes spaning 1976-2014.
 > This the reference genome alignment used to create the [pan-Ebola virus primer scheme](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2) and are also used in the [phylogenetic protocol](/ebov/ebov-phylogenetics-sop.html).
 >
-> [35 EBOV genome alignment - FASTA file.](reference_genomes/ebov-reference-genomes-35.fasta)
+> `reference_genomes/ebov-reference-genomes-35.fasta` -- [35 EBOV genome alignment - FASTA file.](reference_genomes/ebov-reference-genomes-35.fasta)
 >
-> [Maximum likelihood phylogeny - tree file.](reference_genomes/ebov-reference-genomes-35.phyml.tree)
+> `reference_genomes/ebov-reference-genomes-35.phyml.tree` -- [Maximum likelihood phylogeny - tree file.](reference_genomes/ebov-reference-genomes-35.phyml.tree)
 >
-> [Maximum likelihood phylogeny - PNG image.](reference_genomes/ebov-reference-genomes-35.phyml.tree.png)
+> `reference_genomes/ebov-reference-genomes-35.phyml.tree.png` -- [Maximum likelihood phylogeny - PNG image.](reference_genomes/ebov-reference-genomes-35.phyml.tree.png)
