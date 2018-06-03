@@ -1,0 +1,3 @@
+[submodule "fieldbioinformatics"]
+	path = fieldbioinformatics
+	url = https://github.com/artic-network/fieldbioinformatics
