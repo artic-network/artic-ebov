@@ -19,7 +19,7 @@ Pan-Ebola virus primer scheme:
 Ebola virus Nanopore sequencing kit-list:
 > A costed tick-list of equipment, reagents and consumables for a portable Nanopore sequencing lab. 
 >
-> Web: [http://artic.network/ebov/ebov-seq-kit.html](/ebov/ebov-seq-kit.html)
+> Web: [http://artic.network/ebov/ebov-seq-kit.html](http://artic.network/ebov/ebov-seq-kit.html)
 >
 > PDF: [ARTIC-EBOV-seqKit-v1.0.0.pdf](documents/ARTIC-EBOV-seqKit-v1.0.0.pdf)
 
@@ -56,7 +56,7 @@ Ebola virus validation results:
 > [http://artic.network/ebov/ebov-validation.html](http://artic.network/ebov/ebov-validation.html)
 
 An alignment of 35 complete or nearly-complete genomes spaning 1976-2014.
-> This the reference genome alignment used to create the [pan-Ebola virus primer scheme](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2) and are also used in the [phylogenetic protocol](/ebov/ebov-phylogenetics-sop.html).
+> This the reference genome alignment used to create the [pan-Ebola virus primer scheme](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2) and are also used in the [phylogenetic protocol](http://artic.network/ebov/ebov-phylogenetics-sop.html).
 >
 > `reference_genomes/ebov-reference-genomes-35.fasta` -- [35 EBOV genome alignment - FASTA file.](reference_genomes/ebov-reference-genomes-35.fasta)
 >
