@@ -11,8 +11,6 @@ hide_sidebar: true
 folder: ebov
 ---
 
-Test 2
-
 ### Background
 
 The ongoing outbreak of [Ebola virus in the Democratic Republic of Congo](http://www.who.int/emergencies/crises/cod/en/) has highlighted the need for rapid sequencing ability to help with source attribution and to aid epidemiological investigations (including environmental reservoirs).
