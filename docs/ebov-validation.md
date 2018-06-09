@@ -32,7 +32,7 @@ This validation acted as a test of our recently published standard operating pro
 
 Sequence coverage (log scale) at 30 minute and 2 hour time points for three different trains:
 
-![Coverage by primer pair](/images/ebov-validation/coverage.png)
+![Coverage by primer pair](/pages/artic-ebov/images/ebov-validation/coverage.png)
 
 ## Results
 
@@ -41,15 +41,15 @@ sequences in context:
 
 ### Mayinga strain
 
-![Mayinga tree](/images/ebov-validation/Mayinga-tree.png)
+![Mayinga tree](/pages/artic-ebov/images/ebov-validation/Mayinga-tree.png)
 
 ### Makona strain
 
-![Makona tree](/images/ebov-validation/Makona-tree.png)
+![Makona tree](/pages/artic-ebov/images/ebov-validation/Makona-tree.png)
 
 ### Kikwit strain
 
-![Kikwit tree](/images/ebov-validation/Kikwit-tree.png)
+![Kikwit tree](/pages/artic-ebov/images/ebov-validation/Kikwit-tree.png)
 
 Consensus sequences for 2 hour run:
 

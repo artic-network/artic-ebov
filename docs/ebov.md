@@ -11,6 +11,8 @@ hide_sidebar: true
 folder: ebov
 ---
 
+Test
+
 ### Background
 
 The ongoing outbreak of [Ebola virus in the Democratic Republic of Congo](http://www.who.int/emergencies/crises/cod/en/) has highlighted the need for rapid sequencing ability to help with source attribution and to aid epidemiological investigations (including environmental reservoirs).
@@ -71,7 +73,7 @@ An alignment of 35 complete or nearly-complete genomes spaning 1976-2014.
 : > This the reference genome alignment used to create the [pan-Ebola virus primer scheme](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2) and are also used in the [phylogenetic protocol](/ebov/ebov-phylogenetics-sop.html).
 : [35 EBOV genome alignment - FASTA file.](https://github.com/artic-network/ebov/blob/master/reference_genomes/ebov-reference-genomes-35.fasta)
 : [Maximum likelihood phylogeny - tree file.](https://github.com/artic-network/ebov/blob/master/reference_genomes/ebov-reference-genomes-35.phyml.tree)
-: {% include image.html file="ebov-reference-genomes-35.phyml.tree.png" caption="Maximum likelihood tree of 35 reference genomes." %}
+: {% include image.html prefix="/pages/artic-ebov" file="ebov-reference-genomes-35.phyml.tree.png" caption="Maximum likelihood tree of 35 reference genomes." %}
 
 {% include icon-callout.html
 type='default'
