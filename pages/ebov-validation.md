@@ -32,7 +32,7 @@ This validation acted as a test of our recently published standard operating pro
 
 Sequence coverage (log scale) at 30 minute and 2 hour time points for three different trains:
 
-![Coverage by primer pair](/pages/artic-ebov/images/ebov-validation/coverage.png)
+![Coverage by primer pair](/images/ebov-validation/coverage.png)
 
 ## Results
 
@@ -41,15 +41,15 @@ sequences in context:
 
 ### Mayinga strain
 
-![Mayinga tree](/pages/artic-ebov/images/ebov-validation/Mayinga-tree.png)
+![Mayinga tree](/images/ebov-validation/Mayinga-tree.png)
 
 ### Makona strain
 
-![Makona tree](/pages/artic-ebov/images/ebov-validation/Makona-tree.png)
+![Makona tree](/images/ebov-validation/Makona-tree.png)
 
 ### Kikwit strain
 
-![Kikwit tree](/pages/artic-ebov/images/ebov-validation/Kikwit-tree.png)
+![Kikwit tree](/images/ebov-validation/Kikwit-tree.png)
 
 Consensus sequences for 2 hour run:
 
@@ -66,6 +66,14 @@ Data hosting provided by MRC CLIMB.
 2 hour bulk file:
 
 [artic/bulkfiles/nick_W54_55SU1_SUW_20180523_FAH83694_MN21030_sequencing_run_ZEBOV_3Samples_NB_58439.fast5](https://artic.s3.climb.ac.uk/bulkfiles/nick_W54_55SU1_SUW_20180523_FAH83694_MN21030_sequencing_run_ZEBOV_3Samples_NB_58439.fast5) [20.5Gb]
+
+FAST5 reads from entire run (~6.4M reads):
+
+[artic/fast5/ZEBOV_3Samples_NB.tar](https://artic.s3.climb.ac.uk/fastt/ZEBOV_3Samples_NB.tar) [153Gb]
+
+Guppy basecalled (on MinIT) from entire run:
+
+[artic/ZEBOV_3Samples_NB_MinIT_guppy.tgz](https://artic.s3.climb.ac.uk/ZEBOV_3Samples_NB_MinIT_guppy.tgz)
 
 ## Credits
 
