@@ -1,6 +1,7 @@
 name: artic-ebov
 channels:
   - bioconda
+  - etetoolkit # included because bioconda phyml is broken
   - conda-forge
   - defaults
 dependencies:
@@ -16,7 +17,7 @@ dependencies:
   - libdeflate=0.8=0
   - muscle=3.8.1551=2
   - nanopolish=0.9.2=py36_ncurses5.9_4
-  - phyml=3.3.20170530=0
+  - phyml=20160115.patched=hee5dff1_0 # references etetoolkit build
   - porechop=0.2.3_seqan2.1.1=py36_2
   - pandas=0.23.0=py36_1
   - samtools=1.8=4
