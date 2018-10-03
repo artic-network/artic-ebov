@@ -1,4 +1,6 @@
 # For ebov repo #
+augur/results/
+augur/auspice/
 
 # For Python #
 ##############
@@ -6,6 +8,7 @@
 .cache/
 env/
 .pytest_cache
+.snakemake
 
 # Compiled source #
 ###################

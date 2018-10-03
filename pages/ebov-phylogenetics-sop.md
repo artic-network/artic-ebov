@@ -115,3 +115,36 @@ gotree reroot outgroup -i aligned.phy_phyml_tree.txt 'KC242791|Bonduni|DRC|1977-
 ete3 view -t rooted.tree
 ```
 
+## EBOV phylogenetics with augur and visualization with auspice
+
+The [augur package](https://pypi.org/project/nextstrain-augur/) provides a light-weight wrapper around common phylogenetics functionality like aligning sequences and building phylogenetic trees. Here we use augur to quickly align sequences, build a tree and estimate a temporally dated phylogeny.
+
+Begin by navigating to the `augur/` directory within the `artic-ebov` repo:
+
+```bash
+cd augur
+```
+
+The full augur build can be performed by running the supplied `Snakefile` with:
+
+```bash
+snakemake -p
+```
+
+This outputs individual `augur` commands such as `augur parse`, `augur align` and `augur tree` as they are run. Please modify the `Snakefile` to customize the phylogenetic build.
+
+In the course of running the augur build, a maximum-likelihood tree is produced as `results/tree_raw.nwk` and a time-resolved tree is produced as `results/tree.nwk`.
+
+Additionally, running augur enables visualization by [auspice](https://www.npmjs.com/package/auspice) through the `augur export` command, which has produced the files `auspice/ebov_meta.json` and `auspice/ebov_tree.json`. To view the visualization, first install auspice by running:
+
+```bash
+npm install -g auspice
+```
+
+Then launch the visualization viewer by running:
+
+```bash
+auspice --data auspice/
+```
+
+You can then navigate to [http://localhost:4000/local/ebov](localhost:4000/local/ebov) to view the interactive phylogeny.
