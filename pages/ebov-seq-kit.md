@@ -53,7 +53,7 @@ subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC ne
    |-----------------------------------------|------------------|---|---|---|---
    | Vilo SSIV RT | Thermo | 11756050 | £793 | 1 | £793 | <span class="checkbox">&nbsp;</span>
    | Q5&reg; Hot Start HF Polymerase (2xMM)  | NEB | M0494L | £611 | 1 | £611 | <span class="checkbox">&nbsp;</span>
-   | NEBNext&reg; UltraII&trade; End-prep | NEB | E7546L | £722 | 1 | £722 | <span class="checkbox">&nbsp; </span>
+   | NEBNext&reg; UltraII&trade; End-prep | NEB | E7546L | £722 | 1 | £722 | <span class="checkbox">&nbsp;</span>
    | Ebola Zaire V2 Primers* | Thermo |  | £240 | 1 | £220 | <span class="checkbox">&nbsp;</span>
    | NEBNext&reg; UltraII&trade; Ligation Module | NEB | E7595L | £1,204 | 1 | £1,204 | <span class="checkbox">&nbsp;</span>
    | NEBNext&reg; FFPE Repair Module | NEB | M6630L | £539 | 1 | £539 | <span class="checkbox">&nbsp;</span>
