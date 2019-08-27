@@ -1,7 +1,0 @@
-[submodule "fieldbioinformatics"]
-	path = fieldbioinformatics
-	url = https://github.com/artic-network/fieldbioinformatics
-	branch = master
-[submodule "primer-schemes"]
-	path = primer-schemes
-	url = https://github.com/artic-network/primer-schemes
