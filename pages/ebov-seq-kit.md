@@ -10,7 +10,7 @@ folder: ebov
 title_text: "Ebola virus sequencing kit-list"
 subtitle_text: "Nanopore | amplicon | native barcoding"
 document_name: "ARTIC-EBOV-seqKit"
-version: v1.0.0
+version: v2.0.0
 creation_date: 2018-05-21
 revision_date: 2018-05-21
 forked_from: doi:10.1038/nprot.2017.066
@@ -51,18 +51,24 @@ subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC ne
 
    | Product | Supplier | Cat No. | Unit Cost | # Req | Cost
    |-----------------------------------------|------------------|---|---|---|---
-   | Ebola Zaire V2 Primers* | Thermo |  | £240 | 1 | £240 | <span class="checkbox">&nbsp;</span>
-   | LunaScript RT SuperMix Kit | NEB | E3010L | £290 | 1 | £290 | <span class="checkbox">&nbsp;</span>
-   | Q5&reg; Hot Start HF Polymerase (2xMM)  | NEB | M0494S | £122 | 3 | £366 | <span class="checkbox">&nbsp;</span>
-   | NEBNext&reg; UltraII&trade; End-prep | NEB | E7546S | £214 | 3 | £642 | <span class="checkbox">&nbsp;</span>
+   | Ebola Zaire V3 Primers | IDT |  | £450 | 1 | £450 | <span class="checkbox">&nbsp;</span>
+   | SuperScript IV Reverse Transcriptase | Thermo | 18090050 | £230 | 1 | £230 | <span class="checkbox">&nbsp;</span>
+   | dNTP mix (10 mM each) | Thermo | R0192 | £82 | 1 | £82 | <span class="checkbox">&nbsp;</span>
+   | RNase OUT | Thermo | 10777019 | £163 | 1 | £163 | <span class="checkbox">&nbsp;</span>
+   | Q5&reg; Hot Start HF Polymerase (2xMM)  | NEB | M0494L | £623 | 1 | £623 | <span class="checkbox">&nbsp;</span>
+   | NEBNext&reg; UltraII&trade; End-prep | NEB | E7546L | £729 | 1 | £729 | <span class="checkbox">&nbsp;</span>
    | NEBNext&reg; UltraII&trade; Ligation Module | NEB | E7595L | £1,204 | 1 | £1,204 | <span class="checkbox">&nbsp;</span>
    | NEBNext&reg; Quick Ligation Module | NEB | E6056S | £317 | 1 | £317 | <span class="checkbox">&nbsp;</span>
    | Aline PCRCLEAN DX 50ml | Aline | AL-AC1003-50 | £325 | 1 | £325 | <span class="checkbox">&nbsp;</span>
-   | Ligation Sequencing Kit 1D | Nanopore | SQK-LSK108 | £470 | 2 | £940 | <span class="checkbox">&nbsp;</span>
-   | Native Barcoding Expansion Kit | Nanopore | EXP-NBD103 | £250 | 2 | £500 | <span class="checkbox">&nbsp;</span>
-   | R9.4.1 flow cells | Nanopore |  | £375 | 12 | £4,500 | <span class="checkbox">&nbsp;</span>
-   | Qubit&reg; dsDNA HS Assay Kit | Thermo | Q32851 | £185 | 2 | £370 | <span class="checkbox">&nbsp;</span>
-   | **TOTAL COST** | | | | | **£9,694**
+   | Ligation Sequencing Kit 1D | Nanopore | SQK-LSK109 | £470 | 1 | £470 | <span class="checkbox">&nbsp;</span>
+   | Native Barcoding Expansion Kit 1-12 | Nanopore | EXP-NBD104 | £235 | 1 | £235 | <span class="checkbox">&nbsp;</span>
+   | Native Barcoding Expansion Kit 13-24 | Nanopore | EXP-NBD114 | £235 | 1 | £235 | <span class="checkbox">&nbsp;</span>
+   | Flow Cell Priming Kit | Nanopore | EXP-FLP002 | £30 | 4 | £120 | <span class="checkbox">&nbsp;</span>
+   | R9.4.1 flow cells | Nanopore |  | £700 | 2 | £1,400 | <span class="checkbox">&nbsp;</span>
+   | QuantiFluor ONE dsDNA System | Promega | E4870 | £187 | 1 | £187 | <span class="checkbox">&nbsp;</span>
+   | DNase I (RNase-free) | NEB | M0303S | £66 | 1 | £66 | <span class="checkbox">&nbsp;</span>
+   | Buffer A (300 mM KCl, 2 mM CaCl2, 10 mM MgCl2, 15 mM HEPES pH 8.0) | - | - | - | 10 mL | - | <span class="checkbox">&nbsp;</span>
+   | **TOTAL COST** | | | | | **£6,836**
 
 
 <div class="pagebreak"></div>
@@ -74,13 +80,13 @@ subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC ne
    | 1000&micro;L pipettes | Gilson | 10387322 | £210 | 2 | £420 | <span class="checkbox">&nbsp;</span>  
    | 100&micro;L pipettes | Gilson | 10442412 | £210 | 2 | £420 | <span class="checkbox">&nbsp;</span>  
    | 10&micro;L pipettes | Gilson | 10236072 | £210 | 2 | £420 | <span class="checkbox">&nbsp;</span>  
+   | 2&micro;L pipettes | Gilson | 10082012 | £210 | 2 | £420 | <span class="checkbox">&nbsp;</span>
    | Sprout Microfuge (12V) | PhilipHarris | B8R04574 | £170 | 2 | £340 | <span class="checkbox">&nbsp;</span>  
    | PV-1 Mini Vortex | FisherSci | PV-1 | £150 | 2 | £300 | <span class="checkbox">&nbsp;</span>  
    | Portable Heat Block | Mobitec | Pad3-H-CB | £310 | 1 | £310 | <span class="checkbox">&nbsp;</span>  
    | DynaMag-2 magnetic rack | Thermo | 12321D | £540 | 1 | £540 | <span class="checkbox">&nbsp;</span>  
-   | MiniPCR&trade; Mini16 | Cambio | Mp-QP-1016-01 | £675 | 2 | £1,350 | <span class="checkbox">&nbsp;</span>  
-   | MyGo&reg; Mini qPCR | IT-IS  | SKU7642 | £6,500 | 1 | £6,500 | <span class="checkbox">&nbsp;</span>  
-   | Qubit4&reg; spectrophotometer | Thermo | Q33228 | £2,578 | 1 | £2,578 | <span class="checkbox">&nbsp;</span>  
+   | MiniPCR&trade; Mini16 | Cambio | Mp-QP-1016-01 | £675 | 2 | £1,350 | <span class="checkbox">&nbsp;</span>   
+   | Quantus Fluorometer | Promega | E6150 | £1,236 | 1 | £1,236 | <span class="checkbox">&nbsp;</span>  
    | PCR Workstation | StarLabs | E2396-9693 | £20 | 3 | £60 | <span class="checkbox">&nbsp;</span>  
    | Collapsible Tube racks (large x5) | FisherSci | 11710634 | £50 | 1 | £50 | <span class="checkbox">&nbsp;</span>  
    | Cold Racks (0.2-0.5mL) | Sigma | Z606634-1EA | £50 | 2 | £100 | <span class="checkbox">&nbsp;</span>  
@@ -88,7 +94,7 @@ subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC ne
    | USB Lights | Amazon | Jebsen-T05 | £20 | 2 | £40 | <span class="checkbox">&nbsp;</span>  
    | Portable UV Lamps | Amazon | B078LSR3MG | £20 | 2 | £40 | <span class="checkbox">&nbsp;</span>
    | Portable glove box | Amazon | B01B1MGRR0 | £70 | 2 | £40 | <span class="checkbox">&nbsp;</span>  
-   | **TOTAL COST** |  |  |  |  | **£13,558** |
+   | **TOTAL COST** |  |  |  |  | **£6,136** |
 
 
 ### Consumables and Disposables
@@ -100,7 +106,7 @@ subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC ne
    | Stacked 10&micro;L Filter Tips (1000) | FisherSci | 11907724 | £60 | 1 | £60 | <span class="checkbox">&nbsp;</span>  
    | 1.5mL Eppendorf Tubes (500) | StarLab | I1415-2500 | £20 | 2 | £40 | <span class="checkbox">&nbsp;</span>  
    | 8-strip PCR tubes with Individual Caps, 0.2 ml (1000) | StarLab | I1402-2900 | £115 | 1 | £115 | <span class="checkbox">&nbsp;</span>  
-   | Qubit Reaction Tubes (500) | Thermo | Q32856 | £50 | 1 | £50 | <span class="checkbox">&nbsp;</span>  
+   | 0.5 ml thin-walled tubes (1000) | Axygen | PCR-05-C | £40 | 1 | £40 | <span class="checkbox">&nbsp;</span>  
    | MyGo PCR Tubes (500) | IT-IS  | SKU7688 | £85 | 1 | £85 | <span class="checkbox">&nbsp;</span>  
    | BioBIn&reg; Disposal Bins (100) | FisherSci | 10394373 | £121 | 1 | £121 | <span class="checkbox">&nbsp;</span>  
    | Gloves (S/M/L, 100) | StarLab | SG-P-X | £5 | 2 | £10 | <span class="checkbox">&nbsp;</span>  
@@ -109,7 +115,7 @@ subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC ne
    | Back-tie Lab Gowns (45G) | VWR | 113-8316 | £56 | 10 | £56 | <span class="checkbox">&nbsp;</span>  
    | RNAse Away (250mL) | Thermo | 10328011 | £60 | 2 | £120 | <span class="checkbox">&nbsp;</span>  
    | DNA Away (250mL) | Thermo | 7010PK | £20 | 2 | £40 | <span class="checkbox">&nbsp;</span>  
-   | **TOTAL COST** |  |  |  |  | **£909** |
+   | **TOTAL COST** |  |  |  |  | **£887** |
 
 
 ### Cold Chain, Power and Storage
