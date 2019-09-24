@@ -157,7 +157,7 @@ Ebola virus Nanopore sequencing kit-list:
 
 3. Resuspend lyophilised primers at a concentration of 100&micro;M each
 
-4. Generate primer pool stocks by adding 10&micro;L of each primer pair to a 1.5mL Eppendorf labelled “Pool 1, 100&micro;M” or “Pool 2, 100&micro;M”. Total volume should be 480&micro;L of Pool 1 and 460&micro;L of Pool 2. This is a 10x stock of each primer pool.
+4. Generate primer pool stocks by adding 5&micro;L of each primer pair to a 1.5mL Eppendorf labelled “Pool 1, 100&micro;M” or “Pool 2, 100&micro;M”. Total volume should be 505&micro;L of Pool 1 and 530&micro;L of Pool 2. This is a 10x stock of each primer pool.
 
 5. Dilute this primer pool 1:10 in molecular grade water, to generate 10&micro;M primer stocks. Recommend that multiple aliquots of each primer pool are made to account for any risks of degradation of contamination.
 
@@ -292,7 +292,7 @@ Ebola virus Nanopore sequencing kit-list:
   | Ebov-10-Pan_62_LEFT | `CCTGTCAGATGGAATAGTGTTTTGGT` | Ebov-10-Pan_62_RIGHT | `AATTTTTGTGTGCGACCATTTTTCC` | 2 | 100&micro;M |
 {: .compact}
 
-> **NOTE:** Primers need to be used at a final concentration of 0.015&micro;M per primer. In this case, Pool 1 has 48 primers in it so the requirement is 1.8&micro;L of 10&micro;M primer Pool 1 per 25&micro;L reaction. Pool 2 has 46 primers so needs 1.72&micro;L of primer Pool 2 per 25&micro;L reaction. For other schemes, adjust the volume added appropriately.
+> **NOTE:** Primers need to be used at a final concentration of 0.015&micro;M per primer. In this case, Pool 1 has 101 primers in it so the requirement is 3.8&micro;L of 10&micro;M primers Pool 1 per 25&micro;L reaction. Pool 2 has 106 primers so needs 4.0&micro;L of 10&micro;M primers Pool 2 per 25&micro;L reaction. For other schemes, adjust the volume added appropriately.
 
 6. Set up the amplicon PCR reactions as follows in 0.5mL thin-walled PCR or strip-tubes:
 
