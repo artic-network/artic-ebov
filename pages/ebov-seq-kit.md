@@ -63,12 +63,11 @@ subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC ne
    | Ligation Sequencing Kit 1D | Nanopore | SQK-LSK109 | £470 | 1 | £470 | <span class="checkbox">&nbsp;</span>
    | Native Barcoding Expansion Kit 1-12 | Nanopore | EXP-NBD104 | £235 | 1 | £235 | <span class="checkbox">&nbsp;</span>
    | Native Barcoding Expansion Kit 13-24 | Nanopore | EXP-NBD114 | £235 | 1 | £235 | <span class="checkbox">&nbsp;</span>
-   | Flow Cell Priming Kit | Nanopore | EXP-FLP002 | £30 | 4 | £120 | <span class="checkbox">&nbsp;</span>
+   | Flow Cell Priming Kit | Nanopore | EXP-FLP002 | £30 | 2 | £60 | <span class="checkbox">&nbsp;</span>
+   | Flow Cell Wash Kit | Nanopore | EXP-WSH003 | £90 | 2 | £180 | <span class="checkbox">&nbsp;</span>
    | R9.4.1 flow cells | Nanopore |  | £700 | 2 | £1,400 | <span class="checkbox">&nbsp;</span>
    | QuantiFluor ONE dsDNA System | Promega | E4870 | £187 | 1 | £187 | <span class="checkbox">&nbsp;</span>
-   | DNase I (RNase-free) | NEB | M0303S | £66 | 1 | £66 | <span class="checkbox">&nbsp;</span>
-   | Buffer A (300 mM KCl, 2 mM CaCl2, 10 mM MgCl2, 15 mM HEPES pH 8.0) | - | - | - | 10 mL | - | <span class="checkbox">&nbsp;</span>
-   | **TOTAL COST** | | | | | **£6,836**
+   | **TOTAL COST** | | | | | **£6,890**
 
 
 <div class="pagebreak"></div>
