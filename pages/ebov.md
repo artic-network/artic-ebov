@@ -33,13 +33,13 @@ Pan-Ebola virus primer scheme:
 Ebola virus Nanopore sequencing kit-list:
 : > A costed tick-list of equipment, reagents and consumables for a portable Nanopore sequencing lab.
 : Web: [http://artic.network/ebov/ebov-seq-kit.html](/ebov/ebov-seq-kit.html)
-: PDF: [ARTIC-EBOV-seqKit-v1.0.0.pdf](/files/ARTIC-EBOV-seqKit-v2.0.0.pdf)
+: PDF: [ARTIC-EBOV-seqKit-v2.0.0.pdf](/files/ARTIC-EBOV-seqKit-v2.0.0.pdf)
 
 <br />
 Ebola virus Nanopore sequencing protocol:
 : > A complete step by step protocol that covers primers, amplicon preparation and clean-up, a single-tube protocol to barcode and adaptor ligate the library, and running minION.
 : Web: [http://artic.network/ebov/ebov-seq-sop.html](/ebov/ebov-seq-sop.html)
-: PDF: [ARTIC-EBOV-seqSOP-v1.0.0.pdf](/files/ARTIC-EBOV-seqSOP-v2.0.0.pdf)
+: PDF: [ARTIC-EBOV-seqSOP-v2.0.0.pdf](/files/ARTIC-EBOV-seqSOP-v2.0.0.pdf)
 
 <br />
 Setting up the laptop computing environment using Conda:
