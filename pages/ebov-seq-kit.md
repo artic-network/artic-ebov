@@ -2,7 +2,7 @@
 title: "Ebola virus Nanopore sequencing kit-list | Nanopore, amplicon, native barcoding"
 keywords: kit-list
 layout: document
-last_updated: May 18, 2018
+last_updated: Sept 25, 2019
 tags: [kit-list]
 summary:
 permalink: ebov/ebov-seq-kit.html
@@ -12,7 +12,7 @@ subtitle_text: "Nanopore | amplicon | native barcoding"
 document_name: "ARTIC-EBOV-seqKit"
 version: v2.0.0
 creation_date: 2018-05-21
-revision_date: 2018-05-21
+revision_date: 2019-09-25
 forked_from: doi:10.1038/nprot.2017.066
 author: Luke Meredith
 citation: "Meredith, Quick *et al.* In Prep."
