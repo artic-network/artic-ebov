@@ -2,7 +2,7 @@
 title: "Ebola virus Nanopore sequencing protocol | amplicon, native barcoding"
 keywords: protocol
 layout: document
-last_updated: September 08, 2019
+last_updated: Sept 25, 2019
 tags: [protocol]
 summary:
 permalink: ebov/ebov-seq-sop.html
@@ -12,7 +12,7 @@ subtitle_text: "Nanopore | amplicon | native barcoding"
 document_name: "ARTIC-EBOV-seqSOP"
 version: v2.0.0
 creation_date: 2018-05-17
-revision_date: 2019-09-03
+revision_date: 2019-09-25
 forked_from: doi:10.1038/nprot.2017.066
 author: Luke Meredith, Josh Quick
 citation: "Meredith, Quick *et al.* In Prep."

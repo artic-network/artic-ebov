@@ -27,7 +27,7 @@ The ongoing outbreak of [Ebola virus in the Democratic Republic of Congo](http:/
 
 Pan-Ebola virus primer scheme:
 : > The primer scheme used in the sequencing protocol generated using [Primal Scheme](http://http://primal.zibraproject.org).
-: [https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2)
+: [https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V3](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V3)
 
 <br />
 Ebola virus Nanopore sequencing kit-list:
