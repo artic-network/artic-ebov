@@ -2,15 +2,15 @@
 title: "Ebola virus Nanopore sequencing protocol | amplicon, native barcoding"
 keywords: protocol
 layout: document
-last_updated: May 18, 2018
+last_updated: October 5, 2019
 tags: [protocol] 
 permalink: ebov/ebov-it-setup.html
 folder: ebov
 title_text: "Ebola virus bioinformatics environment setup"
 subtitle_text: "Nanopore | bioinformatics"
 document_name: "ARTIC-EBOV-ITSetup"
-version: v1.0.0
-creation_date: 2018-05-26
+version: v2.0.0
+creation_date: 2019-10-05
 forked_from: 
 author: Nick Loman, Andrew Rambaut
 citation: "Loman *et al.* In Prep."
@@ -52,6 +52,9 @@ Laptop requirements for MinION:
 : USB 3
 : Full Oxford Nanopore Technologies [lab and computing requirements are here](https://nanoporetech.com/sites/default/files/s3/MinION-Computer-Requirements-March-17_Final.pdf).
 
+Optional:
+: sNVIDIA CUDA compatible GPU
+
 ## Software Setup
 
 These protocols instructions assume a 64-bit UNIX, Linux or similar environment. This could be Mac OS X (Yosemite or later), Linux (e.g., Ubuntu 16 or later), or Windows 10  Subsystem for Linux. It assumes familiarity with a UNIX-like *bash* command-line. 
@@ -64,54 +67,34 @@ Software will be installed using [Conda](https://conda.io/) -- a cross-platform 
  
 For Conda installation instructions for your operating system go to: [https://conda.io/docs/user-guide/install/](https://conda.io/docs/user-guide/install/). We suggest installing the `Miniconda` version which is relatively small and quick to install. 
 
-> *NOTE:* Install the `64-bit Python 3.6` version of Miniconda
+> *NOTE:* Install the `64-bit Python 3.7` version of Miniconda
 
 ### Installing ARTIC Ebola virus specific data and software
 
 Install the ARTIC Ebola virus data and software repository:
 
 ```bash
-git clone --recursive https://github.com/artic-network/artic-ebov.git
+git clone https://github.com/artic-network/artic-ebov.git
 ```
 
-Create a custom Conda environment for running software. This may take some time as it will install the required packages and all their dependencies.
+Create a custom Conda environment for running software. Although not strictly necessary this will prevent any conflicts with other similar software installed and can be readily removed. This may take some time as it will install the required packages and all their dependencies.
 
 ```bash
 conda env create -f artic-ebov/environment.yml
 ```
 
-```bash
-cd artic-ebov/fieldbioinformatics
-python setup.py install
-cd ../..
-```
+> *NOTE:* This command can take a while depending on the speed of the internet connection.
 
-
-<!-- No longer necessary given environment yml file.
-First use the following commands to set up access to [BioConda](https://bioconda.github.io) (a repository of over 3000 bioinformatics packages):
-
-```bash
-conda config --add channels conda-forge
-conda config --add channels bioconda
-```
-
-Create an custom environment for running software and install the packages:
-  
-```bash
-conda create -n artic-ebov
-```
--->
-
-Although not strictly necessary this will prevent any conflicts with other similar software installed and can be readily removed. You can use this command to activate the environment: 
+You can use this command to activate the environment: 
 
 ```
-source activate artic-ebov
+conda activate artic-ebov
 ```
 
 and then deactivate it again using this:
 
 ```bash
-source deactivate
+conda deactivate
 ```
 
 The artic environment can be removed using this:
@@ -120,11 +103,10 @@ The artic environment can be removed using this:
 conda remove --name artic-ebov --all
 ```
 
-### Installing Oxford Nanopore MinKNOW and Albacore
+### Installing Oxford Nanopore MinKNOW and basecalling software
 
-The software for running the MinION and basecalling can be downloaded from the [Oxford Nanopore Technologies Community site](https://community.nanoporetech.com). Log in to find the `Software Downloads` button. Download `MinKNOW 2.0` (currently v18.03.1) and `Albacore` (currently v2.3.1) appropriate to the system being used. Follow the `Installation guide` for each package.
+The software for running the MinION and basecalling can be downloaded from the [Oxford Nanopore Technologies Community site](https://community.nanoporetech.com). Log in to find the `Software Downloads` button. Download `MinION Software` (currently v19.06.8) and `Guppy` (currently v2.3.1) appropriate to the system being used. Follow the `Installation guide` for each package.
 
-MinKNOW is a graphical user-interface programme that will be installed in the application area of the system.
+`MinKNOW` is a graphical user-interface programme that will be installed in the application area of the system.
 
-Python 3 is needed to both install and run Albacore but is installed by Conda if not already on your machine. Access to Albacore is through an excutable Python script called `read_fast5_basecaller.py` that will be installed in a directory on the path such as `/usr/local/bin/`.
-
+`Guppy` is a set of command-line programs that will be available on your path once installed. 
