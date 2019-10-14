@@ -14,21 +14,21 @@ The ongoing outbreak of [Ebola virus in the Democratic Republic of Congo](http:/
 
 Pan-Ebola virus primer scheme: 
 > The primer scheme used in the sequencing protocol generated using [Primal Scheme](http://http://primal.zibraproject.org).
-> [https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2) 
+> [https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V3](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V3) 
 
 Ebola virus Nanopore sequencing kit-list:
 > A costed tick-list of equipment, reagents and consumables for a portable Nanopore sequencing lab. 
 >
 > Web: [http://artic.network/ebov/ebov-seq-kit.html](http://artic.network/ebov/ebov-seq-kit.html)
 >
-> PDF: [ARTIC-EBOV-seqKit-v1.0.0.pdf](documents/ARTIC-EBOV-seqKit-v1.0.0.pdf)
+> PDF: [ARTIC-EBOV-seqKit-v2.0.0.pdf](documents/ARTIC-EBOV-seqKit-v2.0.0.pdf)
 
 Ebola virus Nanopore sequencing protocol:
 > A complete step by step protocol that covers primers, amplicon preparation and clean-up, a single-tube protocol to barcode and adaptor ligate the library, and running minION.
 >
 > Web: [http://artic.network/ebov/ebov-seq-sop.html](http://artic.network/ebov/ebov-seq-sop.html)
 >
-> PDF: [ARTIC-EBOV-seqSOP-v1.0.0.pdf](documents/ARTIC-EBOV-seqSOP-v1.0.0.pdf)
+> PDF: [ARTIC-EBOV-seqSOP-v2.0.0.pdf](documents/ARTIC-EBOV-seqSOP-v2.0.0.pdf)
 
 Setting up the laptop computing environment using Conda:
 > This document describes setting up a laptop with the software and environment needed to undertake off-line Nanopore bioinformatics and phylogenetic analysis.
