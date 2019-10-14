@@ -4,24 +4,22 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pip
-  - numpy
-  - biopython
-  - snakemake
-  - samtools
-  - bwa
-  - goalign
-  - gotree
-  - muscle
-  - nanopolish
-  - mafft
-  - iqtree
-  - minimap2
-  - medaka
-  - racon
+  - python=3.7
+  - pip=19.2.3
+  - numpy=1.16.1
+  - biopython=1.74
+  - snakemake=5.7.0
+  - samtools=1.9
+  - bwa=0.7.17
+  - goalign=0.3.1
+  - gotree=0.2.10
+  - muscle=3.8.1551
+  - nanopolish=0.10.2
+  - mafft=7.407
+  - iqtree=1.6.12
+  - minimap2=2.17
   - pip:
-    - binlorry
-#       - https://github.com/artic-network/primer-schemes/archive/v1.0.0.tar.gz
+    - binlorry==1.1.0
     - git+https://github.com/artic-network/fieldbioinformatics.git
     - git+https://github.com/artic-network/Porechop.git@v0.3.0pre
     - nextstrain-augur==3.0.2.dev1
