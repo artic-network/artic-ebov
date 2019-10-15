@@ -18,12 +18,14 @@ dependencies:
   - muscle=3.8.1551=2
   - nanopolish=0.9.2=py36_ncurses5.9_4
   - phyml=20160115.patched=hee5dff1_0 # references etetoolkit build
-  - porechop=0.2.3_seqan2.1.1=py36_2
   - pandas=0.23.0=py36_1
   - samtools=1.8=4
   - mafft=7.407=0
   - iqtree=1.6.7=he941832_0
   - datrie=0.7.1=py36_0
   - nodejs=10.4.1=0
+  - pip
   - pip:
+    - git+https://github.com/artic-network/fieldbioinformatics.git
+    - git+https://github.com/artic-network/Porechop.git@v0.3.0pre
     - nextstrain-augur==3.0.2.dev1
