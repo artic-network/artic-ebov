@@ -1,17 +1,18 @@
 name: artic-ebov
 channels:
   - bioconda
-  - etetoolkit # included because bioconda phyml is broken
   - conda-forge
   - defaults
 dependencies:
+  - python=3
+  - nodejs=12
   - biopython=1.70=np112py36_1
   - bwa=0.7.17=pl5.22.0_2
   - clint=0.5.1=py36_0
   - eigen=3.2=3
   - pysam=0.11.2.2=py36_1
   - pyvcf=0.6.8=py36_0
-  - ete3=3.1.1=py36_0
+  - etetoolkit::ete3=3.1.1=py36_0
   - goalign=0.2.8=0
   - gotree=0.2.10=0
   - libdeflate=0.8=0
@@ -23,7 +24,7 @@ dependencies:
   - mafft=7.407=0
   - iqtree=1.6.12
   - datrie=0.8
-  - nodejs=10.4.1=0
+  - artic-network::rampart=1.0
   - pip
   - pip:
     - git+https://github.com/artic-network/fieldbioinformatics.git
