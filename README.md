@@ -16,6 +16,10 @@ Pan-Ebola virus primer scheme:
 > The primer scheme used in the sequencing protocol generated using [Primal Scheme](http://http://primal.zibraproject.org).
 > [https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V3](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V3) 
 
+Ituri-specific Ebola virus primer scheme: 
+> A primer scheme designed for the Ituri strain of Ebola virus in the sequencing protocol.
+> [https://github.com/artic-network/artic-ebov/tree/master/primer_schemes/IturiEBOV](https://github.com/artic-network/artic-ebov/tree/master/primer_schemes/IturiEBOV) 
+
 Ebola virus Nanopore sequencing kit-list:
 > A costed tick-list of equipment, reagents and consumables for a portable Nanopore sequencing lab. 
 >
@@ -47,6 +51,9 @@ Phylogenetic analysis and visualization:
 >
 > Web: [http://artic.network/ebov/ebov-phylogenetics-sop.html](http://artic.network/ebov/ebov-phylogenetics-sop.html)
 <!-- : PDF: --> 
+
+RAMPART real-time visualization of nanopore sequencing:
+> A RAMPART protocol for the Pan Ebola virus primer scheme or the Ituri Ebola virus scheme.
 
 ### Data
 
