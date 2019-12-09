@@ -1,0 +1,30 @@
+name: artic-ebov
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - iqtree
+  - nanopolish
+  - nodejs=12
+  - phyml
+  - pyvcf
+  - biopython
+  - mafft
+  - clint
+  - datrie
+  - goalign
+  - pandas
+  - python=3
+  - gotree
+  - samtools
+  - bwa
+  - pysam
+  - eigen
+  - ete3
+  - artic-network::rampart=1.0
+  - pip
+  - pip:
+    - git+https://github.com/artic-network/fieldbioinformatics.git
+    - git+https://github.com/artic-network/Porechop.git@v0.3.0pre
+    - nextstrain-augur==3.0.2.dev1
