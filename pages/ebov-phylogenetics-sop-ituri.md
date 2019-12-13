@@ -5,7 +5,7 @@ layout: document
 last_updated: Dec 12, 2019
 tags: [protocol]
 summary:
-permalink: ebov/ebov-phylogenetics-sop.html
+permalink: ebov/ebov-phylogenetics-sop-ituri.html
 folder: ebov
 title_text: "Ebola virus phylogenetic analysis protocol"
 subtitle_text: "Nanopore | bioinformatics"
@@ -66,6 +66,26 @@ source activate artic-ebov
 
 This is a FASTA format file which contains a multiple alignment of the 462 genomes. 
 
+### Annotating new sequences with metadata
+
+We recommend adding appropriate metadata to the headers of each of the new sequences at this stage. We suggest following the format of the reference alignment above:
+
+> `>[virus]|[strain]|[accession]|[country]|[admin1]|[admin2]|[date of collection]`
+
+i.e.:
+
+> `>EBOV|18FHV089|MK007329|COD|Nord-Kivu|Mabalako|2018-07-27`
+
+Note the date format at the end ([ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) - this is the most unambiguous date format and is the standard in computational biology and data science. If the day of sampling is unknown (or the month) then these can be omitted:
+
+> `>EBOV|18FHV089|MK007329|COD|Nord-Kivu|Mabalako|2018-07` 
+
+or 
+
+> `>EBOV|18FHV089|MK007329|COD|Nord-Kivu|Mabalako|2018`
+
+Other fields can be added but the standard is to have the date of collection at the end.
+
 ## Building a multiple alignment
 
 Use [MUSCLE](http://www.drive5.com/muscle/) multiple alignment software to align the new genome consensus sequences to the existing reference genome alignment:
@@ -96,6 +116,12 @@ The `-pre new_genomes.iqtree` option defines what the output files will be calle
 The output goes into six files with various extensions, but the tree will be in : `new_genomes.iqtree.treefile`. 
 The `-fast` option will produce a tree much faster but it will be more approximate.
 
+By default an ML tree is arbitrarily rooted so to help with the interpretation of the tree, so use the [Gotree](https://github.com/fredericlemoine/gotree) utility to re-root the tree so some of the earliest virus of the epidemic are at at the root:
+
+```bash
+gotree reroot outgroup -i new_genomes.iqtree.treefile 'EBOV_18FHV089_MK007329_COD_Nord-Kivu_Mabalako_2018-07-27' > new_genomes.iqtree.rooted.tree
+```
+
 ## View the phylogenetic tree
 
 We suggest using [FigTree](https://github.com/rambaut/figtree/) for interactive tree viewing and interpretation.
@@ -110,6 +136,6 @@ tar xfz FigTree_v1.4.4.tgz
 To open the tree in FigTree:
 
 ```bash
-java -jar FigTree_v1.4.4/lib/figtree.jar new_genomes.iqtree.treefile
+java -jar FigTree_v1.4.4/lib/figtree.jar new_genomes.iqtree.rooted.tree
 ```
 
