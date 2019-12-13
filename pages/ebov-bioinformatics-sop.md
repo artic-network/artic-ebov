@@ -59,42 +59,46 @@ Activate the ARTIC environment:
 source activate artic-ebov
 ```
 
-### Basecalling with Albacore (MinION on laptop)
+### Basecalling with MinKNOW (local basecalling)
 
-Run the Albacore basecaller on the new MinION run folder:
+When setting up the run, turn Basecalling on.
+
+### Basecalling with Guppy
+
+If you did basecalling with MinKNOW, skip this step.
+
+Run the Guppy basecaller on the new MinION run folder:
 
 ```bash
-read_fast5_basecaller.py -c r94_450bps_linear.cfg -i /path/to/reads -s run_name -o fastq -t 4 -r --barcoding
-````
+guppy_basecaller -c r941_450bps_450bps.cfg -i /path/to/reads -s run_name -x auto -r
+```
 
 You need to substitute `/path/to/reads` to the folder where the FAST5 files from your
 run are. Common locations are:
 
-   - Mac: ```/Library/MinKNOW/data/reads/run_name```
-   - Linux: ```/var/lib/MinKNOW/data/reads```
+   - Mac: ```/Library/MinKNOW/data/run_name```
+   - Linux: ```/var/lib/MinKNOW/data/run_name```
    - Windows ```c:/data/reads```
    
 This will create a folder called `run_name` with the base-called reads in it.
 
 ### Consensus sequence generation
 
-Gather up the FASTQ output from Albacore:
+We first collect all the FASTQ files (typically stored in files each containing 4000 reads)
+into a single file.
 
 ```bash
-artic gather --min-length 400 --max-length 700 --prefix run_name basecalled_reads
+artic gather --min-length 400 --max-length 700 --prefix run_name /path/to/reads
 ```
 
-Here `basecalled_reads` should be the folder in which Albacore put the base-called reads (i.e., `run_name` from the command above).
+Here `/path_to_readss` should be the folder in which MinKNOW put the base-called reads (i.e., `run_name` from the command above).
 
 We use a length filter here of between 400 and 700 to remove obviously chimeric reads.
 
-> **Basecalling using MinIT or GridION**
-> 
-> If running on MinIT or GridION and you have used Guppy to basecall through Dogfish, instead you can do:
-> 
-> ```bash
-> artic gather --guppy --min-length 400 --max-length 700 --prefix run_name /data/basecalled/path/to/reads
-> ```
+You may need to change these numbers if you are using different length primer schemes. Try the minimum lengths of the amplicons as the 
+minimum, and the maximum length of the amplicons plus 200 as the maximum.
+
+I.e. if your amplicons are 300 base pairs, use --min-length 300 --max-length 500
 
 You will now have a file called: ``run_name_all.fastq``
 and a file called ``run_name_sequencing_summary.txt``, 
@@ -118,6 +122,14 @@ run_name_all_BC03.fastq
 ```
 
 ### Create the nanopolish index (once per sequencing run, not per sample)
+
+If you used MinKNOW basecalling, use the following command:
+
+```bash
+nanopolish index -d /path/to/reads run_name_all.fastq
+```
+
+If you used Guppy basecalling, this command can be made a little faster by using:
 
 ```bash
 nanopolish index -s run_name_sequencing_summary.txt -d /path/to/reads run_name_all.fastq
